@@ -28,9 +28,9 @@ Summarize foundational model inference system paper
 ## Inference Serving Systems
 
 
-1. **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve** (OSDI 2024) [[paper]](https://arxiv.org/abs/2403.02310) 
+1. **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve** (OSDI 2024) [[paper]](https://arxiv.org/abs/2403.02310) ⭐⭐
 
-2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670)
+2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670) ⭐⭐⭐
 
 
     
@@ -60,9 +60,9 @@ Summarize foundational model inference system paper
 3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
 
 ## Speculative Decoding
-1. **SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification** (ASPLOS 2024) [[paper]](https://arxiv.org/pdf/2305.09781)
-2. **EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.15077)
-3. **Simple LLM Inference Acceleration Framework with Multiple Decoding Heads** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.10774)
+1. **SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification** (ASPLOS 2024) [[paper]](https://arxiv.org/pdf/2305.09781) ⭐⭐
+2. **EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.15077) ⭐⭐⭐
+3. **Simple LLM Inference Acceleration Framework with Multiple Decoding Heads** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.10774) ⭐
 
 ## Open Source Code
 1. **LLM inference engine: vllm** (https://github.com/vllm-project/vllm)
