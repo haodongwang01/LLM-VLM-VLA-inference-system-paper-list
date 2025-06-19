@@ -30,7 +30,7 @@ Summarize foundational model inference system paper
 
 1. **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve** (OSDI 2024) [[paper]](https://arxiv.org/abs/2403.02310) 
 
-2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]] (https://arxiv.org/pdf/2401.09670)
+2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670)
 
 
     
