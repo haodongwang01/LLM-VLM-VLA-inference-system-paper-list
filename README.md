@@ -55,7 +55,7 @@ Summarize foundational model inference system paper
 
 
 ## Quantization
-1. **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]] (https://arxiv.org/abs/2210.17323) ⭐⭐
+1. **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
 2. **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
 
