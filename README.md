@@ -12,7 +12,7 @@ Summarize foundational model inference system paper
 
 - 2025-06 主要关注LLM推理系统的优化
 ## Directory
-
+*[Survey](#survey)
 * [LLM](#llm) 
   * [Inference Serving Systems](#inference-serving-systems)
   * [On-device Inference Systems](#on-device-inference-systems)
@@ -23,41 +23,45 @@ Summarize foundational model inference system paper
 * [VLM](#vlm)
 
 
+# Survey
+1. **Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems** (ACM Computing Surveys) [[paper]](https://arxiv.org/pdf/2312.15234) ⭐⭐
+2. **Large Language Model Inference Acceleration: A Comprehensive Hardware Perepective** (ArXiV 2025.06) [[paper]](https://arxiv.org/pdf/2410.04466) ⭐⭐
+
+
 # LLM
 
 ## Inference Serving Systems
 
-
 1. **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve** (OSDI 2024) [[paper]](https://arxiv.org/abs/2403.02310) ⭐⭐
-
 2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670) ⭐⭐⭐
+3. **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs** (ASPLOS 2025)  [[paper]](https://arxiv.org/pdf/2411.11217) ⭐⭐
 
-
-    
 
 
 ## On-device Inference Systems
 
 
 1. **PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU** (SOSP 2024) [[paper]](https://arxiv.org/pdf/2312.12456) ⭐⭐⭐
-
 2. **PowerInfer-2: Fast Large Language Model Inference on a Smartphone** (Arxiv Dec 2024) [[paper]](https://arxiv.org/abs/2406.06282) ⭐⭐
-
 3. **Fast On-device LLM Inference with NPUs** (ASPLOS 2025) [[paper]](https://arxiv.org/pdf/2407.05858) ⭐⭐
-
 4. **FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU** [[paper]](https://arxiv.org/pdf/2303.06865) ⭐
+5. **H2-LLM: Hardware-Dataflow Co-Exploration for Heterogeneous Hybrid-Bonding-based Low-Batch LLM Inference** [[paper]](https://dl.acm.org/doi/10.1145/3695053.3731008)
+
+
 
 ## KV Cache Optimization
 
 1. **FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2205.14135) ⭐⭐⭐
 2. **Efficient Memory Management for Large Language Model Serving with PagedAttention** (SOSP 2023) [[paper]](https://arxiv.org/pdf/2309.06180) ⭐⭐⭐
-
-
+3. **Efficient Streaming Language Models with Attention Sinks** (ICLR 2024) [[paper]](https://arxiv.org/abs/2309.17453) ⭐⭐⭐
+4. **InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management** (OSDI 2024) [[paper]](https://arxiv.org/abs/2406.19707) ⭐⭐⭐
 
 ## Quantization
 1. **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
 2. **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
+4. **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185) 
+
 
 ## Speculative Decoding
 1. **SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification** (ASPLOS 2024) [[paper]](https://arxiv.org/pdf/2305.09781) ⭐⭐
