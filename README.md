@@ -77,3 +77,5 @@ Summarize foundational model inference system paper
 
 # VLM
 
+1. **MMIference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention** (ICML 2025) [[paper]](https://arxiv.org/abs/2504.16083) 
+2. **XAttention: Block Sparse Attention with Antidiagonal Scoring** (ICML 2025) [[paper]](https://arxiv.org/pdf/2503.16428) 
