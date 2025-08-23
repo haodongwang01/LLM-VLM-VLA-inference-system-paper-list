@@ -21,6 +21,9 @@ Summarize foundational model inference system paper
   * [Speculative Decoding](#speculative-decoding)
   * [Open Source Code](#open-source-code)
 * [VLM](#vlm)
+  * [Sparse Attention](#sparse-attention)
+  * [Pruning](#pruning)
+  * [Quantization](#quantization)
 
 
 # Survey
@@ -77,5 +80,13 @@ Summarize foundational model inference system paper
 
 # VLM
 
+## Sparse Attention
 1. **MMIference: Accelerating Pre-filling for Long-Context VLMs via Modality-Aware Permutation Sparse Attention** (ICML 2025) [[paper]](https://arxiv.org/abs/2504.16083) 
-2. **XAttention: Block Sparse Attention with Antidiagonal Scoring** (ICML 2025) [[paper]](https://arxiv.org/pdf/2503.16428) 
+2. **XAttention: Block Sparse Attention with Antidiagonal Scoring** (ICML 2025) [[paper]](https://arxiv.org/pdf/2503.16428)
+
+## Pruning
+1. **TopV: Compatible Token Pruning with Inference Time Optimization for Fast and Low-Memory Multimodal Vision Language Model** (CVPR 2025)[[paper]](https://arxiv.org/abs/2503.18278)
+
+##
+1. **Q-VLM:Post-training Quantization for Large Vision-Language Models** (NeurIPS 2024)[[paper]](https://arxiv.org/abs/2410.08119)
+2. **MBQ: Modality-Balanced Quantization for Large Vision-Language Models** (CVPR 2025)[[paper]](https://arxiv.org/html/2412.19509v1)
