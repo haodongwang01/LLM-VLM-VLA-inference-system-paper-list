@@ -59,12 +59,20 @@ Summarize foundational model inference system paper
 3. **Efficient Streaming Language Models with Attention Sinks** (ICLR 2024) [[paper]](https://arxiv.org/abs/2309.17453) ⭐⭐⭐
 4. **InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management** (OSDI 2024) [[paper]](https://arxiv.org/abs/2406.19707) ⭐⭐⭐
 
-## Quantization
+## Post-Training Quantization
 1. **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
 2. **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
-4. **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185) 
+4. **OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models** (ICLR 2024 Spotlight) [[paper]](https://arxiv.org/abs/2308.13137)
+5. **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
+6. **SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
+7. **FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
 
+4. **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
+
+
+## Quantization Training
+1. **FP4 All the Way: Fully Quantized Training of LLMs** (ArXiV 2025.05) [[paper]](https://arxiv.org/abs/2505.19115) 
 
 ## Speculative Decoding
 1. **SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification** (ASPLOS 2024) [[paper]](https://arxiv.org/pdf/2305.09781) ⭐⭐
