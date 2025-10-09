@@ -15,11 +15,14 @@ Summarize foundational model inference system paper
 *[Survey](#survey)
 * [LLM](#llm) 
   * [Inference Serving Systems](#inference-serving-systems)
+     *[GPU Systems](#GPU-systems)
+     *[GPU-CPU Systems](#GPU-CPU-systems)
   * [On-device Inference Systems](#on-device-inference-systems)
   * [KV Cache Optimization](#KV-cache-optimization)
   * [Post-Training Quantization](#post-training-quantization)
     * [Weight-Only Quantization](#weight-only-quantization)
     * [Weight-Activation Quantization](#weight-activation-quantization)
+    * [Quantization Kernel](#quantization-kernel)
     * [Quantization Serving System](#quantization-serving)
   * [Quantization Training](#quantization-training)
   * [Speculative Decoding](#speculative-decoding)
@@ -39,11 +42,17 @@ Summarize foundational model inference system paper
 # LLM
 
 ## Inference Serving Systems
-
+### GPU Systems
+<a id="GPU-systems"></a>
 1. **Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve** (OSDI 2024) [[paper]](https://arxiv.org/abs/2403.02310) ⭐⭐
-2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670) ⭐⭐⭐
-3. **MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs** (ASPLOS 2025)  [[paper]](https://arxiv.org/pdf/2411.11217) ⭐⭐
+2. **DistServe: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving** (OSDI 2024) [[paper]](https://arxiv.org/pdf/2401.09670)
 
+
+
+### GPU-CPU Systems
+<a id="GPU-CPU-systems"></a>
+**MoE-Lightning: High-Throughput MoE Inference on Memory-constrained GPUs** (ASPLOS 2025)  [[paper]](https://arxiv.org/pdf/2411.11217) ⭐⭐
+**HybriMoE: Hybrid CPU-GPU Scheduling and Cache Management for Efficient MoE Inference** (DAC 2025) [[paper]](https://arxiv.org/abs/2504.05897)
 
 
 ## On-device Inference Systems
@@ -63,28 +72,15 @@ Summarize foundational model inference system paper
 3. **Efficient Streaming Language Models with Attention Sinks** (ICLR 2024) [[paper]](https://arxiv.org/abs/2309.17453) ⭐⭐⭐
 4. **InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management** (OSDI 2024) [[paper]](https://arxiv.org/abs/2406.19707) ⭐⭐⭐
 
-## Post-Training Quantization
-
-3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
-4. **OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models** (ICLR 2024 Spotlight) [[paper]](https://arxiv.org/abs/2308.13137)
-5. **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
-6. **SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
-7. **FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
-8. **OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
-
-
-
-
-
 
 ## Post-Training Quantization
 <a id="post-training-quantization"></a>
-
 
 ### Weight-Only Quantization
 <a id="weight-only-quantization"></a>
 
 **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
+
 **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 
 ---
@@ -93,22 +89,36 @@ Summarize foundational model inference system paper
 <a id="weight-activation-quantization"></a>
 
 **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
+
+**MixQ: Taming Dynamic Outliers in Mixed-Precision Quantization by Online Prediction** (SC 2024) [[paper]](https://dl.acm.org/doi/10.1109/SC41406.2024.00080)
+
 **OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models** (ICLR 2024 Spotlight) [[paper]](https://arxiv.org/abs/2308.13137)
+
 **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
+
 **SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
+
 **FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
+
 **OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
+
+
+---
+
+### Quantization Kernel 
+<a id="quantization-kernel"></a>
+
+**MARLIN: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models** (PPoPP 2025) [[paper]](https://arxiv.org/abs/2408.11743) 
+**T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge** (EuroSys 2025) [[paper]](https://arxiv.org/abs/2407.00088)
+**DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
+**LiquidGEMM: Hardware-Efficient W4A8 GEMM Kernel for High-Performance LLM Serving** (ArXiV 2025.09) [[paper]](https://arxiv.org/abs/2509.01229) 
+**BitDecoding: Unlocking Tensor Cores for Long-Context LLMs with Low-Bit KV Cache** (ArXiV 2025.08) [[paper]](https://arxiv.org/abs/2503.18773) 
 
 ---
 
 ### Quantization Serving System
 <a id="quantization-serving"></a>
-**COMET: Towards Practical W4A4KV4 LLMs Serving**
-**DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
-
-
-返回：[Post-Training Quantization](#post-training-quantization) · [目录](#directory)
-
+**COMET: Towards Practical W4A4KV4 LLMs Serving** (ASPLOS 2025) [[paper]](https://arxiv.org/abs/2410.12168) 
 
 
 
@@ -143,6 +153,6 @@ Summarize foundational model inference system paper
 ## Pruning
 1. **TopV: Compatible Token Pruning with Inference Time Optimization for Fast and Low-Memory Multimodal Vision Language Model** (CVPR 2025)[[paper]](https://arxiv.org/abs/2503.18278)
 
-##
+## Quantization
 1. **Q-VLM:Post-training Quantization for Large Vision-Language Models** (NeurIPS 2024)[[paper]](https://arxiv.org/abs/2410.08119)
 2. **MBQ: Modality-Balanced Quantization for Large Vision-Language Models** (CVPR 2025)[[paper]](https://arxiv.org/html/2412.19509v1)
