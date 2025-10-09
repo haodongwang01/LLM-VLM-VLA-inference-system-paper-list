@@ -17,7 +17,8 @@ Summarize foundational model inference system paper
   * [Inference Serving Systems](#inference-serving-systems)
   * [On-device Inference Systems](#on-device-inference-systems)
   * [KV Cache Optimization](#KV-cache-optimization)
-  * [Quantization](#quantization)
+  * [Post-Training Quantization](#post-training-quantization)
+  * [Quantization Training](#quantization-training)
   * [Speculative Decoding](#speculative-decoding)
   * [Open Source Code](#open-source-code)
 * [VLM](#vlm)
@@ -43,7 +44,6 @@ Summarize foundational model inference system paper
 
 ## On-device Inference Systems
 
-
 1. **PowerInfer: Fast Large Language Model Serving with a Consumer-grade GPU** (SOSP 2024) [[paper]](https://arxiv.org/pdf/2312.12456) ⭐⭐⭐
 2. **PowerInfer-2: Fast Large Language Model Inference on a Smartphone** (Arxiv Dec 2024) [[paper]](https://arxiv.org/abs/2406.06282) ⭐⭐
 3. **Fast On-device LLM Inference with NPUs** (ASPLOS 2025) [[paper]](https://arxiv.org/pdf/2407.05858) ⭐⭐
@@ -67,17 +67,25 @@ Summarize foundational model inference system paper
 5. **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
 6. **SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
 7. **FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
+8. **OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
 
 4. **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
 
 
 ## Quantization Training
-1. **FP4 All the Way: Fully Quantized Training of LLMs** (ArXiV 2025.05) [[paper]](https://arxiv.org/abs/2505.19115) 
+1. **Scaling FP8 training to trillion-token LLMs** (ICLR 2025 Spotlight) [[paper]](https://arxiv.org/abs/2409.12517)
+2. **Optimizing Large Language Model Training Using FP4 Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2501.17116)
+3. **FP4 All the Way: Fully Quantized Training of LLMs** (ArXiV 2025.05) [[paper]](https://arxiv.org/abs/2505.19115)
+4. **Pretraining Large Language Models with NVFP4** (ArXiV 25.09) [[paper]](https://arxiv.org/abs/2509.25149v1)
+
+
 
 ## Speculative Decoding
 1. **SpecInfer: Accelerating Generative LLM Serving with Speculative Inference and Token Tree Verification** (ASPLOS 2024) [[paper]](https://arxiv.org/pdf/2305.09781) ⭐⭐
 2. **EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.15077) ⭐⭐⭐
 3. **Simple LLM Inference Acceleration Framework with Multiple Decoding Heads** (ICML 2024) [[paper]](https://arxiv.org/pdf/2401.10774) ⭐
+
+
 
 ## Open Source Code
 1. **LLM inference engine: vllm** (https://github.com/vllm-project/vllm)
