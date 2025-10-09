@@ -119,7 +119,7 @@ Summarize foundational model inference system paper
 ### Quantization Serving System
 <a id="quantization-serving"></a>
 **COMET: Towards Practical W4A4KV4 LLMs Serving** (ASPLOS 2025) [[paper]](https://arxiv.org/abs/2410.12168) 
-
+**QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving** (MLSys 2025) [[paper]](https://arxiv.org/abs/2405.04532) 
 
 
 ## Quantization Training
