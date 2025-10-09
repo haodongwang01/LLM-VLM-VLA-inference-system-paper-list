@@ -18,6 +18,9 @@ Summarize foundational model inference system paper
   * [On-device Inference Systems](#on-device-inference-systems)
   * [KV Cache Optimization](#KV-cache-optimization)
   * [Post-Training Quantization](#post-training-quantization)
+    *[Weight-Only Quantization](#weight-only-quantization)
+    *[Weight-Activation Quantization](#weight-activation-quantization)
+    *[Quantization Serving System](#quantization-serving)
   * [Quantization Training](#quantization-training)
   * [Speculative Decoding](#speculative-decoding)
   * [Open Source Code](#open-source-code)
@@ -25,6 +28,7 @@ Summarize foundational model inference system paper
   * [Sparse Attention](#sparse-attention)
   * [Pruning](#pruning)
   * [Quantization](#quantization)
+
 
 
 # Survey
@@ -60,8 +64,7 @@ Summarize foundational model inference system paper
 4. **InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management** (OSDI 2024) [[paper]](https://arxiv.org/abs/2406.19707) ⭐⭐⭐
 
 ## Post-Training Quantization
-1. **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
-2. **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
+
 3. **SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
 4. **OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models** (ICLR 2024 Spotlight) [[paper]](https://arxiv.org/abs/2308.13137)
 5. **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
@@ -69,7 +72,44 @@ Summarize foundational model inference system paper
 7. **FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
 8. **OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
 
-4. **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
+
+
+
+
+
+## Post-Training Quantization
+<a id="post-training-quantization"></a>
+
+
+### Weight-Only Quantization
+<a id="weight-only-quantization"></a>
+
+**GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
+**AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
+
+---
+
+### Weight-Activation Quantization
+<a id="weight-activation-quantization"></a>
+
+**SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models** (ICML 2023) [[paper]](https://arxiv.org/abs/2211.10438) ⭐⭐
+**OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models** (ICLR 2024 Spotlight) [[paper]](https://arxiv.org/abs/2308.13137)
+**QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
+**SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
+**FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
+**OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
+
+---
+
+### Quantization Serving System
+<a id="quantization-serving"></a>
+**COMET: Towards Practical W4A4KV4 LLMs Serving**
+**DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
+
+
+返回：[Post-Training Quantization](#post-training-quantization) · [目录](#directory)
+
+
 
 
 ## Quantization Training
