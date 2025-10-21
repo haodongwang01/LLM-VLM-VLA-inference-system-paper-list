@@ -83,6 +83,7 @@ Summarize foundational model inference system paper
 
 **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 
+**QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks** (ICML 2024) [[paper]](https://arxiv.org/pdf/2402.04396) 
 ---
 
 ### Weight-Activation Quantization
@@ -96,12 +97,15 @@ Summarize foundational model inference system paper
 
 **QuaRot: Outlier-Free 4-Bit Inference in Rotated LLMs** (NeurIPS 2024) [[paper]](https://arxiv.org/abs/2404.00456) 
 
-**SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
+**Atom: Low-bit Quantization for Efficient and Accurate LLM Serving** (MLSys 2024) [[paper]](https://arxiv.org/abs/2310.19102) 
 
-**FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
+**SpinQuant: LLM quantization with learned rotations** (ICLR 2025) [[paper]](https://arxiv.org/abs/2405.16406)
 
 **OstQuant: Refining Large Language Model Quantization with Orthogonal and Scaling Transformations for Better Distribution Fitting** (ICLR 2025) [[paper]](https://arxiv.org/abs/2501.13987)
 
+**FlatQuant: Flatness Matters for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2410.09426)
+
+**GPTAQ: Efficient Finetuning-Free Quantization for Asymmetric Calibration** (ICML 2025) [[paper]](https://arxiv.org/abs/2504.02692)
 
 ---
 
@@ -109,9 +113,13 @@ Summarize foundational model inference system paper
 <a id="quantization-kernel"></a>
 
 **MARLIN: Mixed-Precision Auto-Regressive Parallel Inference on Large Language Models** (PPoPP 2025) [[paper]](https://arxiv.org/abs/2408.11743) 
+
 **T-MAC: CPU Renaissance via Table Lookup for Low-Bit LLM Deployment on Edge** (EuroSys 2025) [[paper]](https://arxiv.org/abs/2407.00088)
+
 **DecDEC: A Systems Approach to Advancing Low-Bit LLM Quantization** (OSDI 2025) [[paper]](https://arxiv.org/abs/2412.20185)
+
 **LiquidGEMM: Hardware-Efficient W4A8 GEMM Kernel for High-Performance LLM Serving** (ArXiV 2025.09) [[paper]](https://arxiv.org/abs/2509.01229) 
+
 **BitDecoding: Unlocking Tensor Cores for Long-Context LLMs with Low-Bit KV Cache** (ArXiV 2025.08) [[paper]](https://arxiv.org/abs/2503.18773) 
 
 ---
@@ -119,6 +127,7 @@ Summarize foundational model inference system paper
 ### Quantization Serving System
 <a id="quantization-serving"></a>
 **COMET: Towards Practical W4A4KV4 LLMs Serving** (ASPLOS 2025) [[paper]](https://arxiv.org/abs/2410.12168) 
+
 **QServe: W4A8KV4 Quantization and System Co-design for Efficient LLM Serving** (MLSys 2025) [[paper]](https://arxiv.org/abs/2405.04532) 
 
 
