@@ -84,6 +84,8 @@ Summarize foundational model inference system paper
 **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 
 **QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks** (ICML 2024) [[paper]](https://arxiv.org/pdf/2402.04396) 
+
+
 ---
 
 ### Weight-Activation Quantization
