@@ -20,7 +20,7 @@ Summarize foundational model inference system paper
   * [On-device Inference Systems](#on-device-inference-systems)
   * [KV Cache Optimization](#KV-cache-optimization)
   * [Post-Training Quantization](#post-training-quantization)
-    * [Weight-Only Quantization](#weight-only-quantization)
+     * [Weight-Only Quantization](#weight-only-quantization)
        *[Scale Quantization](#scale-quantization)
        *[Vector Quantization](#vector-quantization)
        *[Additive Quantization](#additive-quantization)
