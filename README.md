@@ -21,6 +21,10 @@ Summarize foundational model inference system paper
   * [KV Cache Optimization](#KV-cache-optimization)
   * [Post-Training Quantization](#post-training-quantization)
     * [Weight-Only Quantization](#weight-only-quantization)
+      *[Scale Quantization](#scale-quantization)
+      *[Vector Quantization](#vector-quantization)
+      *[Additive Quantization](#additive-quantization)
+      *[Product Quantization](#product-quantization)
     * [Weight-Activation Quantization](#weight-activation-quantization)
     * [Quantization Kernel](#quantization-kernel)
     * [Quantization Serving System](#quantization-serving)
@@ -79,12 +83,27 @@ Summarize foundational model inference system paper
 ### Weight-Only Quantization
 <a id="weight-only-quantization"></a>
 
+#### Scale Quantization
+<a id="scale-quantization"></a>
 **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
 
 **AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration** (MLSys 2024 Best Paper) [[paper]](https://arxiv.org/abs/2306.00978) ⭐⭐⭐
 
 **QuIP#: Even Better LLM Quantization with Hadamard Incoherence and Lattice Codebooks** (ICML 2024) [[paper]](https://arxiv.org/pdf/2402.04396) 
 
+#### Vector Quantization
+<a id="vector-quantization"></a>
+**GPTVQ: The Blessing of Dimensionality for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2402.15319)
+**VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models** (EMNLP 2024) [[paper]](https://arxiv.org/abs/2409.17066)
+
+#### Additive Quantization
+<a id="additive-quantization"></a>
+**AQLM: Extreme Compression of Large Language Models via Additive Quantization** (ICML 2024) [[paper]](https://arxiv.org/abs/2401.06118)
+
+
+#### Product Quantization
+<a id="product-quantization"></a>
+**PQCache: Product Quantization-based KVCache for Long Context LLM Inference** (SIGMOD 2025) [[paper]](https://arxiv.org/abs/2407.12820)
 
 ---
 
