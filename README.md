@@ -84,6 +84,7 @@ Summarize foundational model inference system paper
 <a id="weight-only-quantization"></a>
 
 #### Scale Quantization
+
 <a id="scale-quantization"></a>
 **GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers** (ICLR 2023) [[paper]](https://arxiv.org/abs/2210.17323) ⭐⭐
 
@@ -94,6 +95,7 @@ Summarize foundational model inference system paper
 #### Vector Quantization
 <a id="vector-quantization"></a>
 **GPTVQ: The Blessing of Dimensionality for LLM Quantization** (ICML 2025) [[paper]](https://arxiv.org/abs/2402.15319)
+
 **VPTQ: Extreme Low-bit Vector Post-Training Quantization for Large Language Models** (EMNLP 2024) [[paper]](https://arxiv.org/abs/2409.17066)
 
 #### Additive Quantization
