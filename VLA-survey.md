@@ -58,11 +58,33 @@
 
 - **QVLA: Not All Channels Are Equal in Vision-Language-Action Model's Quantization** (ICLR 2026) [[paper]](https://arxiv.org/abs/2602.03782)
 
+- **DyQ-VLA: Temporal-Dynamic-Aware Quantization for Embodied Vision-Language-Action Models** *PKU* (ArXiV 2026.03) [[paper]](https://arxiv.org/abs/2603.07904)
+
+- **DA-PTQ: Drift-Aware Post-Training Quantization for Efficient Vision-Language-Action Models** (ArXiV 2026.04) [[paper]](https://arxiv.org/abs/2604.11572)
+
+- **LiteVLA-Edge: Quantized On-Device Multimodal Control for Embedded Robotics** (ArXiV 2026.03) [[paper]](https://arxiv.org/abs/2603.03380)
+
+
+
 ## System
 
 - **Running VLAs at Real-time Speed** (ArXiv 2025.10) [[paper]](https://arxiv.org/abs/2510.26742) 
 
+- **CREATE: Cross-Layer Resilience Characterization and Optimization for Efficient yet Reliable Embodied AI Systems** *PKU* (ASPLOS 2026) [[paper]](https://arxiv.org/abs/2601.14140)
+
+
+- **How Fast Can I Run My VLA? Demystifying VLA Inference Performance with VLA-Perf** *NVIDIA* (ICRA 2026) [[paper]](https://arxiv.org/abs/2602.18397)
+
+- **From Inference Efficiency to Embodied Efficiency: Revisiting Efficiency Metrics for Vision-Language-Action Models** *HKUST, GIT* (ArXiV 2026.03) [[paper]](https://arxiv.org/abs/2603.19131)
+
+
+- **Realtime-VLA V2: Learning to Run VLAs Fast, Smooth, and Accurate** *Dexmal* (ArXiv 2026.03) [[paper]](https://arxiv.org/abs/2603.26360) 
 
 ## Others
 
 - **FASTER: Rethinking Real-Time Flow VLAs**, *HKU* (ArXiv 2026.03) [[paper]](https://arxiv.org/abs/2603.19199) 
+
+- **StreamingVLA: Streaming Vision-Language-Action Model with Action Flow Matching and Adaptive Early Observation**  *THU* (ArXiv 2026.03) [[paper]](https://arxiv.org/abs/2603.28565) 
+
+
+
