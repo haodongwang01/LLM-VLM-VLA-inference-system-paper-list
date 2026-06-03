@@ -1,0 +1,2 @@
+- **WorldKV: Efficient World Memory with World Retrieval and Compression** (ArXiv 2026.05) [[paper]](https://arxiv.org/abs/2605.22718) WorldKV is a training-free framework that achieves efficient long-term consistency in video world models through World Retrieval, which selectively restores viewpoint-relevant KV-cache chunks, and World Compression, which reduces storage by pruning redundant tokens based on key-key similarity. 
+
